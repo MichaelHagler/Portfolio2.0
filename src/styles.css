@@ -1,4 +1,50 @@
-/*body {
-  background-color: black !important;
-  color: white !important;
-}*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(17, 16, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  position: relative;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(218, 216, 216, 0.1);
+  padding: 20px;
+  color: white;
+}
+
+#main-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 16px;
+}
+
+#project-container {
+  display: flex;
+  flex-direction: 2r 3c;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.flex-itemBtn {
+  flex: 25%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  background-image: url(pictures/test_background_button.jpg);
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px; 
+}
+
+.flex-itemBtn:hover {
+  opacity: 0.7;
+}
