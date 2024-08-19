@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   appLink.href = "https://github.com/MichaelHagler?tab=repositories";
   appLink.target = "_blank";
-  appLink.textContent = "My GitHub";
+  appLink.textContent = "See my code on GitHub";
 
   toDoListBtn.addEventListener("click", () => {
 
