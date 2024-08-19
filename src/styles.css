@@ -8,6 +8,25 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(55, 68, 138);
+  padding: 4px;
+  border: solid 1px;
+  border-radius: 2px;
+  background-color: rgb(175, 173, 173);
+  box-shadow: 0 0 10px rgba(218, 216, 216, 0.1);
+}
+
+p {
+  display: flex;
+  max-width: 600px;
+}
+
+a:hover {
+  opacity: 0.7
+}
+
 #container {
   position: relative;
   background-color: #0a0a0a;
@@ -27,6 +46,13 @@ body {
 #refresh {
   text-decoration: none;
   color: white;
+  border: none;
+  background-color: #0a0a0a;
+  box-shadow: none;
+}
+
+#refresh:hover {
+  opacity: 1;
 }
 
 #refresh:hover {
@@ -42,9 +68,10 @@ body {
 
 .flex-itemBtn {
   height: 100px;
+  font-weight: bold;
   width: 100px;
   flex: 25%;
-  box-shadow: 1px 1px rgba(235, 252, 3, 0.2);
+  box-shadow: 0 0 5px rgba(218, 216, 216, 0.1);
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
@@ -57,7 +84,7 @@ body {
 }
 
 #to-do-list-app {
-  background-image: url(pictures/to-do-list-pic.png);
-  background-size: cover;
+  background-image: url(pictures/to-do-list-app-pic.jpg);
+  background-size: 117% 120%;
   background-position: center;
 }
